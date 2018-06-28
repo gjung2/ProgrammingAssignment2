@@ -34,7 +34,8 @@ cacheSolve <- function(x, ...) {
 
 
 # to test, 
-#> r=rnorm(100)
-#> mat= matrix(r,nrow=10, ncol=10)
-#> makeCacheMatrix(mat)
+#> r=rnorm(10)
+#> mat= matrix(r,nrow=2, ncol=2)
+#> mat1<-makeCacheMatrix(mat)
+#> cacheSolve(mat1)
 
