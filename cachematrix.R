@@ -33,3 +33,8 @@ cacheSolve <- function(x, ...) {
 
 
 
+# to test, 
+#> r=rnorm(100)
+#> mat= matrix(r,nrow=10, ncol=10)
+#> makeCacheMatrix(mat)
+
